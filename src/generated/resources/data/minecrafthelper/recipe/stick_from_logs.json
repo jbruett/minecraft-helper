@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "helper_recipes",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "count": 16
+  }
+}
