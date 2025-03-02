@@ -1,25 +1,22 @@
+# Minecraft Helper
 
-Installation information
-=======
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/jbruett/minecraft-helper)
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This is a simple helper mod that fills in gaps that occur when legacy mods
+go unmaintained. Generally it just adds some recipes that most folks have 
+become very accustomed to after playing modded for years.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+## Installation
+Like any other mod you just need to drop it in your Minecraft client mods 
+directory.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+### Side notes:
+I'm not a java developer, nor am I a Minecraft modder. This is my first attempt
+trying to build a private modpack for my son and I to play together and found
+that I wanted some of these recipes without having to go find the mods that
+might have them included.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### Special Thanks
+https://www.youtube.com/@ModdingByKaupenjoe - KaupenJoe's mod making tutorials ow I learned to get to this point
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+https://github.com/RoBrit/Snad - used as simple reference mod that's not boiling the ocean
